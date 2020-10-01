@@ -1,0 +1,15 @@
+newegg:
+  search_url: 'https://www.newegg.com/p/pl?N=100007709%20601357282'
+
+bh:
+  search_url: 'https://www.bhphotovideo.com/c/products/Graphic-Cards/ci/6567/N/3668461602?filters=fct_nvidia-geforce-series_5011%3Ageforce-rtx-3080%7Cgeforce-rtx-3090'
+
+best_buy:
+  search_url: 'https://www.bestbuy.com/site/computer-cards-components/video-graphics-cards/abcat0507002.c?id=abcat0507002&qp=gpusv_facet%3DGraphics%20Processing%20Unit%20(GPU)~NVIDIA%20GeForce%20RTX%203070%5Egpusv_facet%3DGraphics%20Processing%20Unit%20(GPU)~NVIDIA%20GeForce%20RTX%203080%5Egpusv_facet%3DGraphics%20Processing%20Unit%20(GPU)~NVIDIA%20GeForce%20RTX%203090'
+
+microcenter:
+  search_url: 'https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966937+4294808776&myStore=false&storeid=045'
+  store_name: 'St. Louis Park'
+
+nvidia:
+  search_url: 'https://www.nvidia.com/en-us/shop/geforce/?page=1&limit=9&locale=en-us&gpu=RTX%203070,RTX%203090,RTX%203080&manufacturer=NVIDIA&manufacturer_filter=NVIDIA~3,ACER~0,ALIENWARE~0,ASUS~6,DELL~0,EVGA~4,GIGABYTE~3,HP~0,LENOVO~0,LG~0,MSI~6,PNY~4,RAZER~0,ZOTAC~3'
