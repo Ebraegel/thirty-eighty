@@ -5,10 +5,8 @@ describe 'checking availability after a paper launch', type: :feature, js: true 
     url = config['newegg']['search_url']
     it "searching for 3000 series at #{url}" do
       visit url
-      button_texts = all('div.item-button-area > button').map(&:text)
-      button_texts.each do |text|
-        expect(text).to eq('AUTO NOTIFY')
-      end
+      items = all('.item-cell')
+      expect(items).to all(have_text 'OUT OF STOCK')
     end
   end
 
