@@ -1,8 +1,4 @@
 #! /bin/bash
 
-notify() {
-osascript -e "display notification \"$*\""
-}
-
 bundle install --quiet
 bundle exec rspec --format documentation

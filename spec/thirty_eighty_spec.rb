@@ -51,8 +51,3 @@ describe 'checking availability after a paper launch', type: :feature, js: true 
     end
   end
 end
-
-
-
-
-
